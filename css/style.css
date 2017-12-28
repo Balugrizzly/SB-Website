@@ -1,0 +1,109 @@
+.bold{
+  font-weight: bold;
+  color: #759bfa;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.tournamentstats{
+
+  width: 82.5%;
+  margin-top: 50px;
+  margin-bottom: 500px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 50px;
+  border-color: #c2c2c2;
+
+}
+
+
+.leaderbox{
+margin: 40px;
+align-items: center;
+}
+
+.center {
+float: none;
+margin-left: auto;
+margin-right: auto;
+}
+
+.leaderboxes{
+border-style: solid;
+border-radius: 5px;
+border-width: 2px;
+padding: 50px;
+width: 35% ;
+min-height: 500px;;
+border-color: #c2c2c2;
+}
+
+.background{
+background-image: url(/imgs/Background.png);
+background-position: bottom;
+height: 500px;
+}
+
+
+
+.leaderboardtourn{
+  padding-left: 100px;
+  padding-top: 10px;
+
+
+}
+
+.tournamentsh1{
+  padding-left: 70px;
+  padding-top: 70px;
+}
+
+nav ul li div a:hover{
+  background-color: #cccccc !important;
+}
+
+
+
+.searchbar{
+  padding-left: 0px;
+}
+
+ul li{
+  padding: 0.3rem;
+}
+
+@media (min-width: 48em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+p{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.marketing{
+  margin-left: 10%;
+}
+
+button{
+  cursor: pointer;
+}
+
+.table{
+  margin-top: 0%;
+}
+
+.rankmargine{
+  width: 150px;
+}
+
+.topics{
+  padding-left: 15px;
+  list-style: none;
+}
