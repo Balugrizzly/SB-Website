@@ -23,11 +23,11 @@
                 <a class="nav-link" href="https://speedblocks.se/forum/index.php" target="_blank">Forum</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ranking</a>
+                <a class="nav-link" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Ranking</a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item test" href="challenges.php">Challenges</a>
-                  <a class="dropdown-item" href="stats.php">Stats</a>
-                  <a class="dropdown-item" href="tourn.php">Tournaments</a>
+                  <a class="dropdown-item test" href="<?php echo site_url("challenges") ?>">Challenges</a>
+                  <a class="dropdown-item" href="stats">Stats</a>
+                  <a class="dropdown-item" href="tourn">Tournaments</a>
                   <!-- <div class="dropdown-divider"></div> -->
                 </div>
               </li>
@@ -56,4 +56,4 @@
         </header>
       </div>
       <!--Starting container which gets ended in the footer-->
-      <div class="container">
+      <div class="container-fluid">
