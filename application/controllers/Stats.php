@@ -4,11 +4,10 @@ class Stats extends CI_Controller
 {
 
 public function gstats()
+
 {
   return $this->stats_model->gstats();
 }
-
-
 
   public function view()
 
