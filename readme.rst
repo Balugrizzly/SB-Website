@@ -2,10 +2,14 @@
 Sb website recoded
 ###################
 
-open points /notes
+Open Points and Notes
 
-for players number in in controllers/home there is no coresponding number for challenges and or lobby line 38
+We cant get the "players online in" for a few modes because i dont know the corresponding number for it Controllers/Home line 38
 
-some data for the ranking section and general stats are missing
+Data for the Ranking pages (challenges and stats mainly) has either changed or is no not there/got deleted or has not been added How do we continue there?
 
-the stats table has completly changed i just displayed the stats that are in there now if we want to display ffa points and so on its maybe faster to just take that into stats rather then tripple joining tables
+The only major point left is the tournaments page
+
+
+
+Possible problem could be the signup again

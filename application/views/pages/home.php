@@ -4,7 +4,7 @@
           <h1 class="display-3 text-primary">Fastest free2play Tetris game out there!</h1>
           <p class="lead">Speedblocks is a fast-paced multiplayer tetris game that rewards successive line clears in a combo-timer system.</p>
           <p id="shake"><a class="btn btn-lg btn-success" href="<?php echo site_url("signup") ?>" role="button">Sign up today</a></p>
-          <p><h4>Players online(<?php echo $player_number_online ; ?>)</h4><?php foreach ($players_online->result() as $row){echo $row->title;}; ?> </p>
+          <p><h4>Players online(<?php echo $player_number_online ; ?>)</h4><?php foreach ($players_online->result() as $row){echo $row->username;}; ?> </p>
           <h5>FFA(<?php echo $number_of_players_in_ffa ?>), 1v1(<?php echo $number_of_players_in_1v1 ?>), Challenges(<?php echo $number_of_players_in_challanges ?>), Lobby(<?php echo $number_of_players_in_lobby?>)</h5>
         </div>
         <div class="row">
