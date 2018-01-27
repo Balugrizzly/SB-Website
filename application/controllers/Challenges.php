@@ -17,7 +17,7 @@ class Challenges extends CI_Controller
   public function race()
   {
 
-    $data['users_ranking_race'] = $this->challenges_ranking_time('race');
+    $data['users_ranking_race'] = $this->challenges_ranking_time('Race');
     $data['rank'] = 0;
 
 
@@ -30,7 +30,7 @@ class Challenges extends CI_Controller
 
   public function cheese()
   {
-    $data['users_ranking_cheese'] = $this->challenges_ranking_time('cheese');
+    $data['users_ranking_cheese'] = $this->challenges_ranking_time('Cheese');
     $data['rank'] = 0;
 
     $this->load->view('templates/header');
@@ -43,7 +43,7 @@ class Challenges extends CI_Controller
   public function survivor()
   {
 
-    $data['users_ranking_survivor'] = $this->challenges_ranking_time('survivor');
+    $data['users_ranking_survivor'] = $this->challenges_ranking_time('Survivor');
     $data['rank'] = 0;
 
 
@@ -57,7 +57,7 @@ class Challenges extends CI_Controller
   public function cheese30()
   {
 
-    $data['users_ranking_cheese30'] = $this->challenges_ranking_time('cheese_30l');
+    $data['users_ranking_cheese30'] = $this->challenges_ranking_time('Cheese_30L');
     $data['rank'] = 0;
 
     $this->load->view('templates/header');

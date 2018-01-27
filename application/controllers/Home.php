@@ -40,17 +40,17 @@ class Home extends CI_Controller
     $data['number_of_players_in_lobby'] = $this->players_online_in("lobby");
     $data['number_of_players_in_1v1'] = $this->players_online_in(5);
 
-    $data['race_mode_rank_1'] = $this->mode_players_time("race",0);
-    $data['race_mode_rank_2'] = $this->mode_players_time("race",1);
-    $data['race_mode_rank_3'] = $this->mode_players_time("race",2);
+    $data['race_mode_rank_1'] = $this->mode_players_time("Race",0);
+    $data['race_mode_rank_2'] = $this->mode_players_time("Race",1);
+    $data['race_mode_rank_3'] = $this->mode_players_time("Race",2);
 
-    $data['cheese_mode_rank_1'] = $this->mode_players_time("cheese",0);
-    $data['cheese_mode_rank_2'] = $this->mode_players_time("cheese",1);
-    $data['cheese_mode_rank_3'] = $this->mode_players_time("cheese",2);
+    $data['cheese_mode_rank_1'] = $this->mode_players_time("Cheese",0);
+    $data['cheese_mode_rank_2'] = $this->mode_players_time("Cheese",1);
+    $data['cheese_mode_rank_3'] = $this->mode_players_time("Cheese",2);
 
-    $data['survivor_mode_rank_1'] = $this->mode_players_time("survivor",0);
-    $data['survivor_mode_rank_2'] = $this->mode_players_time("survivor",1);
-    $data['survivor_mode_rank_3'] = $this->mode_players_time("survivor",2);
+    $data['survivor_mode_rank_1'] = $this->mode_players_time("Survivor",0);
+    $data['survivor_mode_rank_2'] = $this->mode_players_time("Survivor",1);
+    $data['survivor_mode_rank_3'] = $this->mode_players_time("Survivor",2);
 
     $data['ffa_mode_rank_1'] = $this->mode_players_rank("ffa",0);
     $data['ffa_mode_rank_2'] = $this->mode_players_rank("ffa",1);
