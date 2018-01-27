@@ -19,7 +19,6 @@
           <th>Maxbpm</th>
           <th>Maxcombo</th>
           <th>Challenges Played</th>
-          <th>Totalbpm</th>
         </tr>
       </thead>
       <tbody id="myTable">
@@ -30,7 +29,7 @@
           if ($row->won > 0 && $row->played > 0) {
             $winrate = round(100*($row->won / $row->played));
           }else {
-            $winrate = "No Data";
+            $winrate = 0;
           }
 
           echo "
@@ -43,7 +42,6 @@
           <td>$row->maxbpm</td>
           <td>$row->maxcombo</td>
           <td>$row->challenges_played</td>
-          <td>$row->totalbpm</td>
           </tr>";
         }?>
       </tbody>

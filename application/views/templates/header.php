@@ -26,8 +26,8 @@
                 <a class="nav-link" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false">Ranking</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item test" href="<?php echo site_url("challenges") ?>">Challenges</a>
-                  <a class="dropdown-item" href="stats">Stats</a>
-                  <a class="dropdown-item" href="tourn">Tournaments</a>
+                  <a class="dropdown-item" href="<?php echo site_url("stats") ?>">Stats</a>
+                  <a class="dropdown-item" href="<?php echo site_url("tournaments") ?>">Tournaments</a>
                   <!-- <div class="dropdown-divider"></div> -->
                 </div>
               </li>

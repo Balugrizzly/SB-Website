@@ -6,6 +6,7 @@ $route['default_controller'] = 'home/view';
 
 $route['signup'] = 'signup/register';
 $route['challenges'] = 'challenges/race';
+$route['tournaments'] = 'tournaments/view';
 $route['stats'] = 'stats/view';
 
 
