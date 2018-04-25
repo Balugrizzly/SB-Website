@@ -14,4 +14,5 @@ Possible problem could be the signup again
 BUGS:
 
 Players online shows the players without ";" 
+
 The ranking for the survior challange is in the wrong order
