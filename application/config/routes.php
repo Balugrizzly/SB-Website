@@ -8,6 +8,7 @@ $route['signup'] = 'signup/register';
 $route['challenges'] = 'challenges/race';
 $route['tournaments'] = 'tournaments/view';
 $route['stats'] = 'stats/view';
+$route['secure_auth.php'] = 'secure_auth.php';
 
 
 

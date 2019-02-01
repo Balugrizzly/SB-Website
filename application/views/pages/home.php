@@ -3,7 +3,7 @@
         <div class="jumbotron">
           <h1 class="display-3 text-primary">Fastest free2play Tetris game out there!</h1>
           <p class="lead">Speedblocks is a fast-paced multiplayer tetris game that rewards successive line clears in a combo-timer system.</p>
-          <p id="shake"><a class="btn btn-lg btn-success" href="<?php echo site_url("signup") ?>" role="button">Sign up today</a></p>
+          <p id="shake"><a class="btn btn-lg btn-success" href="https://speedblocks.se/forum/ucp.php?mode=register" role="button">Sign up today</a></p>
           <p><h4>Players online(<?php echo $player_number_online ; ?>)</h4><?php foreach ($players_online->result() as $row){echo $row->username;}; ?> </p>
           <h5>FFA(<?php echo $number_of_players_in_ffa ?>), 1v1(<?php echo $number_of_players_in_1v1 ?>), Challenges(<?php echo $number_of_players_in_challanges ?>), Lobby(<?php echo $number_of_players_in_lobby?>)</h5>
         </div>
@@ -43,7 +43,7 @@
             <br />
             <h2>Survivor</h2>
             <p>Test your downstack - survive as long as you can while an ever increasing amount of garbage comes your way!</p>
-            <img src="<?php echo base_url("images/survivor.png") ?>" alt="race" height="200px">
+            <img src="<?php echo base_url("images/Survivor.png") ?>" alt="race" height="200px">
             <br />
             <i class="fa fa-trophy fa-3x" aria-hidden="true">  <?php echo $survivor_mode_rank_1 ?></i>
             <br />

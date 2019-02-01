@@ -1,5 +1,5 @@
 <div class="container">
-  <form class="" action="index.html" method="post">
+  <?php echo form_open('signup/register'); ?>
 
     <h2 class="form-signin-heading">Please sign up</h2>
     <br>
